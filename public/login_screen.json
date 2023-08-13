@@ -1,0 +1,27 @@
+{
+    "form" : {
+        "attrs" : [
+            "name",
+            "method",
+            "action"
+        ],
+        
+        "inputs" : {
+            "user" : {
+                "name" : "username",
+                "id"   : "username",
+                "type" : "text" 
+            },
+            "password":{
+                "name" : "userkey",
+                "id"   : "userkey",
+                "type" : "password"
+            },
+            "button" : {
+                "type"  : "button",
+                "text"  : "Acessar",
+                "action" : "getLogin()"
+            }
+        }
+    }
+}
